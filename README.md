@@ -29,10 +29,6 @@ Gulp Global
 - npm init
 - npm install --save-dev gulp
 
-## Comandos do Gulp
-
-- gulp s (server)
-
 ## Flexbox
 estruturado com flexbox
 
