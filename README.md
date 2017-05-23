@@ -1,4 +1,4 @@
-# Sistema de consumo da API do Pokemón
+# Sistema de consumo da API do Pokemón (MOCK)
 
 #### 1ª Tarefa
 
