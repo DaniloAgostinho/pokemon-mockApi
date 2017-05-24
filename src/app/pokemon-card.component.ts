@@ -11,4 +11,16 @@ export class PokemonCardComponent {
   @Input() experiencia: string;
   @Input() descricao: string;
   @Input() avatarUrl: string;
+
+  public premiado: boolean = false;
+
+  abrePopup(pokemon: string) {
+  	console.log(pokemon);
+  	if(pokemon == 'Charizard') {
+  		this.premiado = true;
+  	}else {
+  		this.premiado = false;
+  	}
+  }
+
 }
