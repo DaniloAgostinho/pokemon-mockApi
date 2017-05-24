@@ -1,14 +1,14 @@
 main {
 	max-width: 630px;
-    height: 100%;
-    display: block;
-    margin: 0 auto;
-    padding-top: 50px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+  padding-top: 50px;
 }
 
 input {
 	padding: 15px;
-	width: 480px;
+	width: 500px;
 	background: #fff;
 	border: 2px solid #1e275b;
 	font-size: 16px;

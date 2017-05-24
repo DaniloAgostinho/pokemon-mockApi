@@ -1,12 +1,18 @@
 <div class="cards-pokemon">
-  <img opt-imagem [borda]="'1px solid green'" [pokemon]="nome"  (alerta)="abrePopup($event)" src="{{avatarUrl}}" alt="Pokemon">
+  <img opt-imagem [borda]="'1px solid #fff'" [pokemon]="nome"  (alerta)="abrePopup($event)" src="{{avatarUrl}}" alt="Pokemon">
 
   <section>
-    <h4>{{nome}} | {{id}} | {{experiencia}}</h4>
+    <div class="label">{{nome}}</div>
+    <div class="label">{{id}}</div>
+    <div class="label">{{experiencia}}</div>
+
+    <div *ngIf="premiado">
+      <section id="twelve-point-star"></section>
+    </div>
   </section>
+
+  <h3>Descrição</h3>
   <p>{{descricao}}</p>
 </div>
 
-<div *ngIf="premiado">
-	vc achou o pokemon premiado!
-</div>
+
