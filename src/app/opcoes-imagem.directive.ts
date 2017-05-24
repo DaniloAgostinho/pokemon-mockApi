@@ -8,13 +8,13 @@ import { Directive, ElementRef, Input , Output, EventEmitter, HostListener, OnIn
 export class OpcoesImagemDirective implements OnInit {
 
 	@Input()  borda: string;
-	@Output() alerta: EventEmitter = new EventEmitter<any>();
+	@Output() alerta: EventEmitter<any> = new EventEmitter();
 
 	@Input() pokemon: string;
 
 
 	 constructor(private el: ElementRef) {
-		// if ternario // this.el.nativeElement.style.border = (this.borda.trim() !== '' ? this.borda : '');
+
 	 }
 
 	  @HostListener('mouseenter') onMouseEnter() {
