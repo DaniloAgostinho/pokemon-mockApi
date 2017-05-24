@@ -1,0 +1,26 @@
+main {
+	max-width: 630px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+input {
+	padding: 15px;
+	width: 480px;
+	background: #fff;
+	border: 2px solid #1e275b;
+	font-size: 16px;
+}
+
+button {
+	padding: 15px;
+	width: 120px;
+	border: 2px solid #1e275b;
+	font-size: 16px;
+	background: #fff;
+	cursor: pointer;
+	font-weight: bold;
+	color: #1d3c73;
+}

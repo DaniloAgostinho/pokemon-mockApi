@@ -4,7 +4,8 @@ import { BuscarPokemonService } from './services/BuscarPokemon.service';
 
 @Component({
   selector: 'my-app',
-  templateUrl: './app-template.html'
+  templateUrl: './app-template.html',
+  styleUrls: ['./app.css']
 })
 export class AppComponent  {
   private pokemonPesquisado = new Array();

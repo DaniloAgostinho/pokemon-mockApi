@@ -3,7 +3,9 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 
 @Component({
   selector: 'search',
-  templateUrl: './search-template.html'
+  moduleId: module.id,
+  templateUrl: './search-template.html',
+  styleUrls: ['./search.css']
 })
 export class SearchComponent {
   private textoPesquisadoModel: string;

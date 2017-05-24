@@ -6,14 +6,17 @@ import { HeaderModule } from './header.module';
 import { SearchModule } from './search.module';
 import { PokemonCardModule } from './pokemon-card.module';
 
+
 import { BuscarPokemonService } from './services/BuscarPokemon.service';
 
+
 @NgModule({
-  imports:      [
-    BrowserModule,
-    HeaderModule,
-    SearchModule,
-    PokemonCardModule ],
+  imports: [
+      BrowserModule,
+      HeaderModule,
+      SearchModule,
+      PokemonCardModule
+    ],
   declarations: [ AppComponent ],
   providers: [
     BuscarPokemonService
@@ -21,3 +24,5 @@ import { BuscarPokemonService } from './services/BuscarPokemon.service';
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
+
+
