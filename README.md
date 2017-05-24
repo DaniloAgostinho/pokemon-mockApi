@@ -6,7 +6,9 @@ Foi criado e disponibilizado um Mockup de Rascunho inicial da página home. :hea
 
 ![Mockup da home](https://raw.githubusercontent.com/DaniloAgostinho/pokeapi-simple-search/master/mockups/home.png)
 
+### Estatus
+
+![estatus](https://raw.githubusercontent.com/DaniloAgostinho/pokemon-mockApi/master/src/app/img/gif.gif)
+
 #### Tecnologia Angular 2
 ![Angular](https://angular.io/resources/images/logos/angular/angular.png)
-
-
