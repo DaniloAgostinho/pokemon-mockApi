@@ -11,4 +11,4 @@ Foi criado e disponibilizado um Mockup de Rascunho inicial da página home. :hea
 ![estatus](https://raw.githubusercontent.com/DaniloAgostinho/pokemon-mockApi/master/src/app/img/gif.gif)
 
 #### Tecnologia Angular 2
-![Angular](https://angular.io/resources/images/logos/angular/angular.png)
+![Angular](https://raw.githubusercontent.com/DaniloAgostinho/pokemon-mockApi/master/src/app/img/git%20update.gif)
