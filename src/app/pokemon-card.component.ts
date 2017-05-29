@@ -6,21 +6,13 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./card.css']
 })
 export class PokemonCardComponent {
-  @Input() nome: string;
-  @Input() id: string;
-  @Input() experiencia: string;
-  @Input() descricao: string;
-  @Input() avatarUrl: string;
+  @Input() pokemon: Object;
 
-  public premiado: boolean = false;
+  premiado(nome: string) {
+    if ( nome === 'charizard' ) {
+       return true;
+    }
 
-  abrePopup(pokemon: string) {
-  	console.log(pokemon);
-  	if(pokemon == 'Charizard') {
-  		this.premiado = true;
-  	}else {
-  		this.premiado = false;
-  	}
+    return false;
   }
-
 }

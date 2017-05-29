@@ -7,13 +7,16 @@ import { SearchModule } from './search.module';
 import { PokemonCardModule } from './pokemon-card.module';
 import { BuscarPokemonService } from './services/BuscarPokemon.service';
 
+import { HttpModule } from '@angular/http';
+
 
 @NgModule({
   imports: [
       BrowserModule,
       HeaderModule,
       SearchModule,
-      PokemonCardModule
+      PokemonCardModule,
+      HttpModule
     ],
   declarations: [ AppComponent ],
   providers: [

@@ -6,10 +6,13 @@
 
 	margin: 0 auto;
 	width: 600px;
-	height: 200px;
 	padding: 10px;
 
   margin-bottom: 100px;
+}
+
+.cards-pokemon h3, p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .cards-pokemon  p {
@@ -22,6 +25,7 @@ img {
 }
 
 .label {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   position: relative;
   width: 90px;
   height: 31px;

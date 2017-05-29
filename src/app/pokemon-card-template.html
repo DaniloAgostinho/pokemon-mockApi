@@ -1,18 +1,25 @@
 <div class="cards-pokemon">
-  <img opt-imagem [borda]="'1px solid #fff'" [pokemon]="nome"  (alerta)="abrePopup($event)" src="{{avatarUrl}}" alt="Pokemon">
+  <img opt-imagem
+    [borda]="'1px solid #fff'"
+    src="{{pokemon.sprites.front_default}}"
+    alt="Sprite de {{ pokemon.name }}">
 
   <section>
-    <div class="label">{{nome}}</div>
-    <div class="label">{{id}}</div>
-    <div class="label">{{experiencia}}</div>
+    <div class="label">{{pokemon.name}}</div>
+    <div class="label">{{pokemon.id}}</div>
+    <div class="label">{{pokemon.base_experience}}</div>
 
-    <div *ngIf="premiado">
+    <div *ngIf="premiado(pokemon.name)">
       <section id="twelve-point-star"></section>
     </div>
   </section>
 
-  <h3>Descrição</h3>
-  <p>{{descricao}}</p>
+  <h4>Movimentos</h4>
+  <ul>
+    <li *ngFor="let item of pokemon.moves">
+      {{ item.move.name }}
+    </li>
+  </ul>
 </div>
 
 

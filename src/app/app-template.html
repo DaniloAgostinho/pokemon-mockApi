@@ -1,13 +1,12 @@
 <header></header>
+
 <div>
   <search (clicouEmPesquisar)="pesquisarPokemon($event)"></search>
 </div>
-<div>
-  <div *ngFor="let pokemon of pokemonPesquisado">
-    <pokemon-card [nome]="pokemon.nome" [id]="pokemon.id" [descricao]="pokemon.descricao"
-    [experiencia]="pokemon.experiencia" [avatarUrl]="pokemon.avatarUrl"></pokemon-card>
-  </div>
-</div>
+
+<div *ngIf="isLoading  && clicado" style="text-align: center;">C A R R E G A N D O . . .</div>
+
+<pokemon-card *ngIf="!isLoading && clicado" [pokemon]="pokemonPesquisado"></pokemon-card>
 
 <footer>
 	<nav class="link-footer">
